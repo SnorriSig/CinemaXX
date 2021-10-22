@@ -58,6 +58,7 @@ public class MovieControllerImp implements MovieController{
             return ResponseEntity.badRequest().body("{message: \"Starting date is after Ending date, please check\"}");
         }
     }
+    
     @Override
     public List<MovieDTODate> getAllByRange(LocalDate startRange, LocalDate endRange) {
         return movieService.getByDateRange(startRange, endRange);
