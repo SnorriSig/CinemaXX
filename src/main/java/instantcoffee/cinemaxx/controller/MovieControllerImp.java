@@ -1,6 +1,5 @@
 package instantcoffee.cinemaxx.controller;
 
-
 import instantcoffee.cinemaxx.dto.MovieDTO;
 import instantcoffee.cinemaxx.dto.MovieDTOCustomer;
 import instantcoffee.cinemaxx.dto.MovieDTODate;
