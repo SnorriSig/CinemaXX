@@ -28,5 +28,4 @@ public interface BookingController {
 
     @PutMapping()
     public ResponseEntity<String> editBooking(@AuthenticationPrincipal User user, @RequestBody BookingDTO bookingDTO);
-
 }
